@@ -10,7 +10,7 @@ make install
 
 cat > /etc/sockd.conf <<EOF
 logoutput: /var/log/socks.log
-internal: $ifaceName port = 1080
+internal: $ifaceName port = 443
 external: $ifaceName
 socksmethod: username
 user.unprivileged: nobody
